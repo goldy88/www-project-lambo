@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+
+* {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #A09797;	
+}
+
+#example1 {
+ background-image: url("obrázky/background.jpg");
+ background-position: right bottom, left top;
+  background-repeat:  repeat;
+  padding: 10px;
+}
+
+
+h1 {
+	font-size: 200px;
+	text-align: center;
+	font-family: 'Arizonia'; 
+	color: darkgoldenrod;
+	margin: 0 0 30px 0;
+	text-shadow: 2px 2px 5px red;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin: 40px 0px;
+	font-family: 'Playfair Display', serif;
+    font-style: italic; 
+	color: silver;
+}
+
+h3{
+	font-size: 40px;
+	text-align: center;
+	color: silver;
+}
+
+
+nav.menu{
+	font-size: 40px;
+	color: azure;	
+	margin: 0 auto;
+	text-align: center;
+	
+
+}
+
+nav.menu a{
+	padding: 13px 22px;
+	background-color: rgba(255,255,255,0.2);
+	text-decoration: none;
+	box-shadow: 10px -10px 6px 1px rgba(0,0,0,0.75);
+	margin: 0 5px;
+	border-radius: 8px 8px 0 0;
+	
+}
+nav.menu a:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.75), 0 6px 20px 0 rgba(255,255,255,0.5);
+	
+}
+
+
+
+table.tabulka{
+	font-size: 25px;
+	
+	
+}
+
+.tabulka tr th{
+	border: 1px solid #504646;
+	padding: 10px;
+	background-color: rgba(205,199,199,0.32);
+	color: green;
+}
+
+
+.tabulka tr td{
+	border: 1px solid #504646;
+	padding: 10px;
+}
+
+p{
+ font-size: 25px;
+text-align: justify;
+
+	
+	}
+
+p.paticka{
+	font-size: 20px;
+	margin-top: 60px;	
+}
+
+iframe.mapa{
+	width: 900px;
+}
+
+
+
+img.vlevo {
+	float: left;
+	border-radius: 50px 50px 50px 50px;
+	width: 600px;
+	border: double #7B7A7A 5px;
+	margin: 0 30px 0 0;
+}
+
+img.uvod{
+	  text-align: center;
+	text-align: justify;
+	
+	width: 100%;
+	
+}
+
+img.vpravo{
+	float: right;
+	border-radius: 50px 50px 50px 50px;	
+	width: 600px;
+	border: double #7B7A7A 5px;
+	margin: 0 0 0 30px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+img.fotoprodejny{
+	width: 652px;
+	float: left;
+	margin-bottom: 50px;
+	
+}
+
+img.brouseni{
+	float: right;	
+	width: 100%; 
+	max-width: 420px;
+	border-radius: 45px 45px 45px 45px;
+}
+
+img.disky{
+	float: left;
+	width: 100%; 
+	max-width: 420px;
+	border-radius: 45px 45px 45px 45px;
+}
+img.lesteni{
+	margin: 35px 0 80px 0px;
+	width: 100%; 
+	max-width: 440px;
+}
+
+.container{ 
+	padding: 30px 15px ;
+	max-width: 1280px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+
+
